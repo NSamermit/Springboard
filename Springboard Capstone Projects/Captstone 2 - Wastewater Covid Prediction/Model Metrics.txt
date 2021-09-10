@@ -1,0 +1,19 @@
+Using a grid-search method for ARIMA models, the supervised machine learning model found optimized parameters based on these specifications:
+Start AR term: 1
+End AR term: 3
+Start MA term: 1
+End MA term: 3
+Start Differencing Term: 1
+Test Parameter: Augmented Dickey Fuller
+Seasonality: False
+Auto_Arima() grid search yielded these models for these counties:
+Berkshire: ARIMA(3,1,0)
+Essex: ARIMA(0,1,0)
+Hampshire: ARIMA(0,1,1)
+Middlesex: ARIMA(1,1,0)
+Nantucket: ARIMA(2,1,0)
+Suffolk: ARIMA(1,1,0)
+
+
+The model metric used was the Mean Average Precision Error: 0.70935
+This is not an accurate model, but as discussed with my mentor, when forecasting trends sometimes the accuracy isn’t the focus but rather the trend.
